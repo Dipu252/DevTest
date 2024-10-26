@@ -1,0 +1,10 @@
+<h2>Summary Report</h2>
+<p><strong>Total Rows:</strong> {{ summary.total_rows }}</p>
+<p><strong>Total Columns:</strong> {{ summary.total_columns }}</p>
+<p><strong>Column Names:</strong> {{ summary.column_names }}</p>
+
+<h3>Sample Data</h3>
+{{ summary.sample_data|safe }}
+
+<h3>Statistics</h3>
+{{ summary.statistics|safe }}
